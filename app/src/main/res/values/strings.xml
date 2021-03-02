@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SD Bulk SMS</string>
+
+    <string name="powered_by">Powered By</string>
+    <string name="company_name">System Decoder</string>
+
+    <string name="placeholder_text">Placeholder Text</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="status">Status</string>
+    <string name="exit">Exit</string>
+    <string name="exit_text">Are You Sure to quit this app?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_internet_check_your_connection">No internet! Please check your connection</string>
+    <string name="tap_to_retry">Tap to retry</string>
+
+    <string name="back">Back</string>
+
+    <string name="login">Login</string>
+    <string name="enter_your_username">Enter Your Username</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="logout">Logout</string>
+</resources>

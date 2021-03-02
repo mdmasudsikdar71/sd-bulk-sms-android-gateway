@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:padding="30dp"
+    tools:context=".activities.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/splashScreenImageId"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop='true'
+        android:layout_centerHorizontal='true'
+        android:layout_marginTop="150dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/common_full_open_on_phone" />
+
+    <TextView
+        android:id="@+id/splashScreenAppNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/splashScreenImageId"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/muli_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/splashScreenCompanyNameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/splashScreenCompanyName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/muli_extralight_italic"
+        android:gravity="center_horizontal"
+        android:text="@string/powered_by"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/splashScreenCompanyName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/muli_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/company_name"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

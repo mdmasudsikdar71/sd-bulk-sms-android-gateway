@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "773967269324",
+    "project_id": "sd-bulk-sms",
+    "storage_bucket": "sd-bulk-sms.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:773967269324:android:e6e22ed17717e9d2e4a169",
+        "android_client_info": {
+          "package_name": "com.systemdecoder.sdbulksms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "773967269324-js91i8m2otht27p1dlr41f3elnjl8kd5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.systemdecoder.sdbulksms",
+            "certificate_hash": "307d9dd2892576457e427476e306fb6cba6e31c6"
+          }
+        },
+        {
+          "client_id": "773967269324-cbuivn7mp849jhmvum8e6jv8da92n3qa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfNqqW7e_DTTOT8OL_CVgm8Sxdb_vtPw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "773967269324-cbuivn7mp849jhmvum8e6jv8da92n3qa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
